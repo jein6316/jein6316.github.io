@@ -40,7 +40,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         {project.description}
       </p>
 
-      {isFeatured && project.id === 'lotte-itsm' && (
+      {isFeatured && project.id === 'enterprise-itsm' && (
         <div className="mb-8">
           <ITSMProgressUI />
         </div>
