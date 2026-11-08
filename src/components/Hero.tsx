@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Code2 className="w-4 h-4 text-blue-400" />
-                <span>Frontend: React, WebSquare</span>
+                <span>Frontend: React, Vue, WebSquare</span>
               </div>
               <div className="flex items-center gap-3">
                 <Database className="w-4 h-4 text-purple-400" />

@@ -118,5 +118,6 @@ export const skills = [
   { name: "Spring", level: 90, category: "Backend" },
   { name: "SQL", level: 90, category: "Database" },
   { name: "React", level: 80, category: "Frontend" },
+  { name: "Vue", category: "Frontend" },
   { name: "TypeScript", level: 75, category: "Frontend" }
 ];
