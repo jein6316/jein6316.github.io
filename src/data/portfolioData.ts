@@ -12,6 +12,21 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "own-brand-products",
+    title: "뷰티·유통사 자체 브랜드 상품관리 시스템 운영 및 개발",
+    subtitle: "상품 업무 배치 개발 및 상품관리 기능 개선",
+    description: "자체 브랜드 상품의 제조기획부터 상품코드 등록, 상품마스터 관리까지 지원하는 시스템의 운영 및 개선 개발을 담당하고 있습니다.",
+    period: "2026.05 ~ 현재",
+    tags: ["Batch", "Slack", "Data Management"],
+    role: "Developer / Operator",
+    features: [
+      "상품 업무 처리를 위한 배치 신규·추가 개발",
+      "Slack 알림 연동을 통한 운영 모니터링 지원",
+      "상품 데이터 정합성 확인 및 데이터 보정",
+      "상품관리 화면 기능 개선 및 유지보수"
+    ]
+  },
+  {
     id: "global-payment",
     title: "국내 자동차 그룹 해외 결제 시스템 운영 개발",
     subtitle: "배치 공통 구조 신규 구축 및 운영 개발",
